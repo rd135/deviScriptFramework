@@ -10,7 +10,7 @@ class HelloWorld extends Component {
 const app = new MyFramework({
   el: '#app',
   render: () => {
-    const hello = new HelloWorld({ name: 'Deviang' });
+    const hello = new HelloWorld({ name: 'deviang' });
     return hello.render();
   }
 });

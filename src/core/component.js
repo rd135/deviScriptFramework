@@ -1,12 +1,11 @@
 class Component {
-    constructor(props) {
-      this.props = props;
-    }
-  
-    render() {
-      return '';
-    }
+  constructor(props) {
+    this.props = props;
   }
-  
-  export default Component;
-  
+
+  render() {
+    return '';
+  }
+}
+
+export default Component;
